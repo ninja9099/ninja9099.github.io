@@ -178,6 +178,13 @@ hr {
   margin-top: 10px;
   text-transform: uppercase;
 }
+.portfolio-item-link {
+  color: white;
+}
+.portfolio-item-link:hover {
+  text-decoration: none;
+
+}
 .portfolio-thumb {
   overflow: hidden;
   margin: 0;
@@ -408,10 +415,11 @@ input { height: 50px; }
 
 /*custom css*/
 .description-box {
-  height: 200px;
   overflow: hidden;
 }
-
+.more:hover {
+  text-decoration: none;
+}
 .line-clamp {
   display: -webkit-box;
   -webkit-line-clamp: 3;
